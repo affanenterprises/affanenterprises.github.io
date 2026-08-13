@@ -1,7 +1,7 @@
 // ====== EDIT THESE 3 VALUES BEFORE PUBLISHING ======
-const CONTACT_EMAIL = "naveelhussain5639@gmail.com";
+const CONTACT_EMAIL = "affanent.pk@gmail.com";
 const WHATSAPP_NUMBER = "923310412372"; // digits only, country code included
-const DISPLAY_PHONE = "+92 331 0412372 / +92 974 30832618";
+const DISPLAY_PHONE = "92 331 0412372 / 92 974 30832618";
 // ===================================================
 
 document.getElementById("year").textContent = new Date().getFullYear();
