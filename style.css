@@ -40,6 +40,36 @@
 
 .product-img.shavings{
   background-image:url('wood-sawdust.jpg');
+}.card-body{
+  padding:20px;
+}
+
+.card-body h3{
+  font:800 21px/1.2 Manrope;
+  margin:10px 0;
+}
+
+.card-body p{
+  font-size:13px;
+  color:var(--muted);
+  margin:0 0 18px;
+}
+
+.card-body a{
+  color:var(--green2);
+  font-size:12px;
+  font-weight:800;
+  text-decoration:none;
+}
+
+.tag{
+  display:inline-block;
+  background:#edf4e5;
+  color:#426329;
+  padding:5px 9px;
+  border-radius:20px;
+  font-size:10px;
+  font-weight:800;
 }
 .card-body{padding:20px}
 .card-body h3{font:800 21px/1.2 Manrope;margin:10px 0}
