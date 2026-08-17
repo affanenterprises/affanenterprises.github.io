@@ -31,9 +31,11 @@
   background-image:url('50mm-hardwood-sawdust-powder_1.jpg');
 }
 .product-img.fine {
-  background-image: url('Fine%20Sawdust.jpg');
+  background-image: url('./Fine%20Sawdust.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
-
 .product-img.medium{
   background-image:url('sawdaust-wfjyrxcyuzpr.jpg');
 }
