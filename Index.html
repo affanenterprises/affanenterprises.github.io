@@ -1,1 +1,1170 @@
-i
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Affan Enterprises | Pakistan Pink & White Salt Exporter</title>
+  <meta name="description" content="Affan Enterprises supplies premium Himalayan pink salt and white salt from Pakistan to Qatar, UAE, Saudi Arabia and GCC markets.">
+  <meta name="keywords" content="Pakistan pink salt exporter, Himalayan salt, pink salt Pakistan, white salt exporter, GCC salt supplier">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    /* TOP BAR */
+    .topbar {
+      background: #222;
+      color: #fff;
+      padding: 9px 0;
+      font-size: 14px;
+    }
+
+    .topbar-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    /* NAVIGATION */
+    header {
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .nav {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 20px;
+    }
+
+    .logo-mark {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #d78c91, #f5d6d8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 21px;
+      font-weight: bold;
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+
+    .logo span {
+      color: #b84d59;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: #b84d59;
+    }
+
+    .nav-btn {
+      background: #25d366;
+      color: #fff !important;
+      padding: 11px 17px;
+      border-radius: 8px;
+    }
+
+    /* HERO */
+    .hero {
+      background:
+        linear-gradient(rgba(35, 20, 22, .58), rgba(35, 20, 22, .58)),
+        linear-gradient(135deg, #d79a9f, #f4d8d9);
+      min-height: 590px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+    }
+
+    .hero-content {
+      max-width: 760px;
+      padding: 80px 0;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: rgba(255,255,255,.15);
+      border: 1px solid rgba(255,255,255,.4);
+      padding: 8px 14px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      margin-bottom: 22px;
+    }
+
+    .hero h1 span {
+      color: #ffd9dc;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 690px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 13px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 8px;
+      font-weight: 700;
+      border: 2px solid transparent;
+    }
+
+    .btn-primary {
+      background: #25d366;
+      color: #fff;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: #8f3f49;
+    }
+
+    /* TRUST STRIP */
+    .trust {
+      background: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,.08);
+      position: relative;
+      margin-top: -35px;
+      z-index: 5;
+      border-radius: 12px;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+    }
+
+    .trust-item {
+      padding: 22px 15px;
+      text-align: center;
+      border-right: 1px solid #eee;
+    }
+
+    .trust-item:last-child {
+      border-right: none;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: #a34450;
+      font-size: 16px;
+    }
+
+    .trust-item small {
+      color: #666;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 85px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title .small {
+      color: #b84d59;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .section-title h2 {
+      font-size: 40px;
+      margin: 8px 0 12px;
+    }
+
+    .section-title p {
+      color: #666;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* PRODUCTS */
+    .products {
+      background: #faf7f7;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 28px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 5px 22px rgba(0,0,0,.08);
+      border: 1px solid #eee;
+    }
+
+    .product-image {
+      height: 270px;
+      background: linear-gradient(135deg, #dca0a4, #f6e0e1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+    }
+
+    .white-salt {
+      background: linear-gradient(135deg, #e7e7e7, #fff);
+    }
+
+    .product-body {
+      padding: 28px;
+    }
+
+    .product-body h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .product-body p {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .product-body ul {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    .product-body li {
+      margin: 7px 0;
+    }
+
+    .product-body li::before {
+      content: "✓";
+      color: #b84d59;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+
+    /* ABOUT */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .about-box {
+      background: #f8eeee;
+      padding: 45px;
+      border-radius: 18px;
+      text-align: center;
+    }
+
+    .about-box .big {
+      font-size: 90px;
+      margin-bottom: 15px;
+    }
+
+    .about-text h2 {
+      font-size: 40px;
+      margin-bottom: 18px;
+    }
+
+    .about-text p {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    /* GCC */
+    .gcc {
+      background: #222;
+      color: #fff;
+    }
+
+    .gcc .section-title p {
+      color: #ccc;
+    }
+
+    .gcc-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 18px;
+    }
+
+    .gcc-card {
+      padding: 30px 20px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 12px;
+      background: rgba(255,255,255,.04);
+    }
+
+    .gcc-card .flag {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .gcc-card h3 {
+      margin-bottom: 6px;
+    }
+
+    .gcc-card p {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    /* WHY US */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 22px;
+    }
+
+    .why-card {
+      border: 1px solid #eee;
+      border-radius: 14px;
+      padding: 30px;
+      background: #fff;
+    }
+
+    .why-icon {
+      width: 52px;
+      height: 52px;
+      background: #f6e2e3;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      margin-bottom: 18px;
+    }
+
+    .why-card h3 {
+      margin-bottom: 9px;
+    }
+
+    .why-card p {
+      color: #666;
+      font-size: 15px;
+    }
+
+    /* CTA */
+    .cta {
+      background: linear-gradient(135deg,#a84450,#d58c92);
+      color: #fff;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .cta p {
+      max-width: 700px;
+      margin: 0 auto 25px;
+      font-size: 18px;
+    }
+
+    /* CONTACT */
+    .contact {
+      background: #faf7f7;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+    }
+
+    .contact-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 32px;
+      border: 1px solid #eee;
+    }
+
+    .contact-card h3 {
+      font-size: 25px;
+      margin-bottom: 18px;
+    }
+
+    .contact-line {
+      margin: 16px 0;
+      padding: 14px;
+      background: #fafafa;
+      border-radius: 8px;
+    }
+
+    .contact-line strong {
+      display: block;
+      color: #a34450;
+      margin-bottom: 3px;
+    }
+
+    .contact-line a {
+      color: #333;
+      word-break: break-word;
+    }
+
+    .contact-line a:hover {
+      color: #b84d59;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #171717;
+      color: #fff;
+      padding: 40px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 35px;
+      margin-bottom: 30px;
+    }
+
+    footer h3 {
+      margin-bottom: 12px;
+    }
+
+    footer p,
+    footer li {
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    footer ul {
+      list-style: none;
+    }
+
+    footer li {
+      margin: 7px 0;
+    }
+
+    .copyright {
+      border-top: 1px solid #333;
+      padding-top: 20px;
+      text-align: center;
+      color: #888;
+      font-size: 13px;
+    }
+
+    /* WHATSAPP FLOAT */
+    .whatsapp {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      z-index: 2000;
+      box-shadow: 0 4px 15px rgba(0,0,0,.25);
+    }
+
+    /* MOBILE */
+    @media (max-width: 850px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        min-height: 520px;
+      }
+
+      .hero-content {
+        padding: 65px 0;
+      }
+
+      .trust-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .trust-item:nth-child(2) {
+        border-right: none;
+      }
+
+      .product-grid,
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gcc-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .why-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 550px) {
+
+      .topbar-content {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .logo {
+        font-size: 16px;
+      }
+
+      .logo-mark {
+        width: 42px;
+        height: 42px;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      .trust-grid,
+      .gcc-grid,
+      .why-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+      }
+
+      .trust-item:last-child {
+        border-bottom: none;
+      }
+
+      section {
+        padding: 65px 0;
+      }
+
+      .section-title h2,
+      .about-text h2,
+      .cta h2 {
+        font-size: 32px;
+      }
+
+      .about-box {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div>🇵🇰 Pakistan Salt Exporter</div>
+      <div>🇶🇦 Qatar • 🇦🇪 UAE • 🇸🇦 Saudi Arabia • GCC</div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header>
+    <div class="container nav">
+
+      <a href="#home" class="logo">
+        <div class="logo-mark">AE</div>
+        <div>Affan <span>Enterprises</span></div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#markets">GCC Markets</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-btn" href="https://wa.me/923310412372" target="_blank">WhatsApp</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+
+          <div class="eyebrow">PAKISTAN → GCC EXPORTS</div>
+
+          <h1>
+            Premium <span>Pink & White Salt</span>
+            From Pakistan
+          </h1>
+
+          <p>
+            Reliable Pakistan-origin salt supply for importers,
+            wholesalers, food businesses, distributors and private-label
+            buyers across Qatar, UAE, Saudi Arabia and the GCC.
+          </p>
+
+          <div class="buttons">
+            <a class="btn btn-primary"
+               href="https://wa.me/923310412372?text=Hello%20Affan%20Enterprises,%20I%20am%20interested%20in%20your%20Pakistan%20salt%20products."
+               target="_blank">
+              💬 Request a Quote
+            </a>
+
+            <a class="btn btn-secondary" href="#products">
+              View Products
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <div class="container trust">
+      <div class="trust-grid">
+
+        <div class="trust-item">
+          <strong>✓ Pakistan Origin</strong>
+          <small>Authentic salt supply</small>
+        </div>
+
+        <div class="trust-item">
+          <strong>✓ Bulk Supply</strong>
+          <small>Commercial quantities</small>
+        </div>
+
+        <div class="trust-item">
+          <strong>✓ GCC Focus</strong>
+          <small>Export-ready service</small>
+        </div>
+
+        <div class="trust-item">
+          <strong>✓ Buyer Support</strong>
+          <small>Fast quotation response</small>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="products">
+
+      <div class="container">
+
+        <div class="section-title">
+          <div class="small">Our Products</div>
+          <h2>Pakistan Salt Products</h2>
+          <p>
+            We supply different salt formats according to buyer,
+            packaging and market requirements.
+          </p>
+        </div>
+
+        <div class="product-grid">
+
+          <article class="product-card">
+
+            <div class="product-image">
+              🧂
+            </div>
+
+            <div class="product-body">
+
+              <h3>Himalayan Pink Salt</h3>
+
+              <p>
+                Naturally occurring pink rock salt from Pakistan,
+                suitable for food, retail, hospitality and industrial
+                applications.
+              </p>
+
+              <ul>
+                <li>Pakistan Himalayan origin</li>
+                <li>Fine, coarse and crystal options</li>
+                <li>Bulk and retail packing available</li>
+                <li>Private-label packing possible</li>
+              </ul>
+
+              <a class="btn btn-primary"
+                 href="https://wa.me/923310412372?text=Hello,%20please%20send%20me%20your%20Himalayan%20Pink%20Salt%20catalogue%20and%20export%20price."
+                 target="_blank">
+                Ask for Price
+              </a>
+
+            </div>
+          </article>
+
+
+          <article class="product-card">
+
+            <div class="product-image white-salt">
+              🧂
+            </div>
+
+            <div class="product-body">
+
+              <h3>White Salt</h3>
+
+              <p>
+                Commercial white salt supply for food processors,
+                wholesalers, distributors and industrial applications.
+              </p>
+
+              <ul>
+                <li>Multiple grain sizes</li>
+                <li>Bulk commercial supply</li>
+                <li>Suitable for GCC buyers</li>
+                <li>Custom packaging options</li>
+              </ul>
+
+              <a class="btn btn-primary"
+                 href="https://wa.me/923310412372?text=Hello,%20please%20send%20me%20your%20White%20Salt%20catalogue%20and%20export%20price."
+                 target="_blank">
+                Ask for Price
+              </a>
+
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+      <div class="container about-grid">
+
+        <div class="about-box">
+          <div class="big">🇵🇰</div>
+          <h3>Pakistan Origin</h3>
+          <p>
+            Connecting Pakistan's salt resources with GCC buyers.
+          </p>
+        </div>
+
+        <div class="about-text">
+
+          <div class="section-title" style="text-align:left;margin-bottom:20px;">
+            <div class="small">About Affan Enterprises</div>
+            <h2>Your Pakistan Salt Supply Partner</h2>
+          </div>
+
+          <p>
+            Affan Enterprises is focused on supplying Pakistan-origin
+            pink and white salt to international buyers.
+          </p>
+
+          <p>
+            Our goal is simple: provide dependable communication,
+            competitive export quotations and commercially practical
+            salt supply solutions for GCC importers and distributors.
+          </p>
+
+          <p>
+            We can discuss product specifications, grain size,
+            packaging, quantity, destination and shipping terms based
+            on your requirements.
+          </p>
+
+          <a class="btn btn-primary"
+             href="https://wa.me/923310412372?text=Hello%20Affan%20Enterprises,%20I%20would%20like%20to%20discuss%20a%20salt%20import%20requirement."
+             target="_blank">
+            Contact Export Team
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- GCC MARKETS -->
+    <section id="markets" class="gcc">
+
+      <div class="container">
+
+        <div class="section-title">
+          <div class="small">Export Markets</div>
+          <h2>Supplying GCC Buyers</h2>
+          <p>
+            We welcome inquiries from importers, wholesalers,
+            distributors, food companies and private-label businesses.
+          </p>
+        </div>
+
+        <div class="gcc-grid">
+
+          <div class="gcc-card">
+            <div class="flag">🇶🇦</div>
+            <h3>Qatar</h3>
+            <p>Doha importers, wholesalers and distributors</p>
+          </div>
+
+          <div class="gcc-card">
+            <div class="flag">🇦🇪</div>
+            <h3>UAE</h3>
+            <p>Dubai, Abu Dhabi and wider UAE market</p>
+          </div>
+
+          <div class="gcc-card">
+            <div class="flag">🇸🇦</div>
+            <h3>Saudi Arabia</h3>
+            <p>Importers, distributors and food businesses</p>
+          </div>
+
+          <div class="gcc-card">
+            <div class="flag">🇴🇲</div>
+            <h3>Oman</h3>
+            <p>Commercial and wholesale salt buyers</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHY US -->
+    <section>
+
+      <div class="container">
+
+        <div class="section-title">
+          <div class="small">Why Work With Us</div>
+          <h2>Built for Export Buyers</h2>
+          <p>
+            We focus on practical service for international B2B buyers.
+          </p>
+        </div>
+
+        <div class="why-grid">
+
+          <div class="why-card">
+            <div class="why-icon">🇵🇰</div>
+            <h3>Pakistan Supply</h3>
+            <p>
+              Source Pakistan-origin pink and white salt for your
+              commercial requirements.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">📦</div>
+            <h3>Flexible Packing</h3>
+            <p>
+              Discuss bulk sacks, bags and private-label requirements
+              according to your market.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">🚢</div>
+            <h3>Export Focus</h3>
+            <p>
+              We work with buyers to discuss quantity, destination,
+              shipping terms and documentation requirements.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">💬</div>
+            <h3>Fast Communication</h3>
+            <p>
+              Contact us directly through WhatsApp or email for product
+              specifications and quotations.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">🤝</div>
+            <h3>B2B Partnership</h3>
+            <p>
+              Our focus is on long-term relationships with importers,
+              wholesalers and distributors.
+            </p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-icon">🌍</div>
+            <h3>GCC Markets</h3>
+            <p>
+              Dedicated focus on Qatar, UAE, Saudi Arabia and other GCC
+              markets.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+      <div class="container">
+
+        <h2>Looking for a Pakistan Salt Supplier?</h2>
+
+        <p>
+          Send us your required product, quantity, packing preference
+          and destination. We will discuss the available supply and
+          export quotation.
+        </p>
+
+        <div class="buttons" style="justify-content:center;">
+
+          <a class="btn btn-primary"
+             href="https://wa.me/923310412372?text=Hello%20Affan%20Enterprises,%20please%20send%20me%20your%20salt%20export%20quotation."
+             target="_blank">
+            💬 WhatsApp Us
+          </a>
+
+          <a class="btn btn-secondary"
+             href="mailto:Affanent.pk@gmail.com">
+            ✉ Email Us
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+      <div class="container">
+
+        <div class="section-title">
+          <div class="small">Contact</div>
+          <h2>Request an Export Quote</h2>
+          <p>
+            Tell us what you need and we will get back to you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-card">
+
+            <h3>Affan Enterprises</h3>
+
+            <div class="contact-line">
+              <strong>Pakistan WhatsApp / Phone</strong>
+              <a href="https://wa.me/923310412372" target="_blank">
+                +92 331 0412372
+              </a>
+            </div>
+
+            <div class="contact-line">
+              <strong>Qatar Phone / WhatsApp</strong>
+              <a href="https://wa.me/97430832618" target="_blank">
+                +974 30832618
+              </a>
+            </div>
+
+            <div class="contact-line">
+              <strong>Email</strong>
+              <a href="mailto:Affanent.pk@gmail.com">
+                Affanent.pk@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-line">
+              <strong>Products</strong>
+              <span>Himalayan Pink Salt • White Salt</span>
+            </div>
+
+          </div>
+
+
+          <div class="contact-card">
+
+            <h3>What to Include in Your Inquiry</h3>
+
+            <div class="contact-line">
+              <strong>1. Product</strong>
+              <span>Pink Salt or White Salt</span>
+            </div>
+
+            <div class="contact-line">
+              <strong>2. Quantity</strong>
+              <span>Required quantity or container size</span>
+            </div>
+
+            <div class="contact-line">
+              <strong>3. Destination</strong>
+              <span>Qatar, UAE, Saudi Arabia or another country</span>
+            </div>
+
+            <div class="contact-line">
+              <strong>4. Packing</strong>
+              <span>Bulk, bags or private label</span>
+            </div>
+
+            <a class="btn btn-primary"
+               href="https://wa.me/923310412372?text=Hello%20Affan%20Enterprises.%0AProduct:%20%0AQuantity:%20%0ADestination:%20%0APacking:%20"
+               target="_blank">
+              Send Inquiry on WhatsApp
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+          <h3>Affan Enterprises</h3>
+          <p>
+            Pakistan supplier and exporter of Himalayan pink salt
+            and white salt for GCC and international buyers.
+          </p>
+        </div>
+
+        <div>
+          <h3>Products</h3>
+          <ul>
+            <li>Himalayan Pink Salt</li>
+            <li>White Salt</li>
+            <li>Bulk Salt</li>
+            <li>Private Label</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Markets</h3>
+          <ul>
+            <li>Qatar</li>
+            <li>UAE</li>
+            <li>Saudi Arabia</li>
+            <li>Oman & GCC</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        © 2026 Affan Enterprises. All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- FLOATING WHATSAPP -->
+  <a class="whatsapp"
+     href="https://wa.me/923310412372?text=Hello%20Affan%20Enterprises,%20I%20am%20interested%20in%20your%20salt%20products."
+     target="_blank"
+     aria-label="Contact Affan Enterprises on WhatsApp">
+    ☎
+  </a>
+
+</body>
+</html>
