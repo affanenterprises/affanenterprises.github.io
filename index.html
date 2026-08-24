@@ -8,7 +8,65 @@
   <meta name="description" content="Affan Enterprises supplies premium Himalayan pink salt and white salt from Pakistan to Qatar, UAE, Saudi Arabia and GCC markets.">
   <meta name="keywords" content="Pakistan pink salt exporter, Himalayan salt, pink salt Pakistan, white salt exporter, GCC salt supplier">
 
-  <style>
+  <style>.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: #8f3f48;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #b84d59;
+}
+
+@media (max-width: 700px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+}
     * {
       margin: 0;
       padding: 0;
@@ -20,6 +78,22 @@
     }
 
     body {
+      <nav class="top-nav">
+  <div class="nav-container">
+
+    <a href="#home" class="brand">
+      AFFAN ENTERPRISES
+    </a>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+  </div>
+</nav>
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
       color: #222;
