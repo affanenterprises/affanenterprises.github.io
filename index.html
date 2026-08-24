@@ -699,6 +699,38 @@
         padding: 30px;
       }
     }
+   /* FORCE NAVIGATION TO SHOW */
+header {
+  display: block !important;
+  width: 100%;
+  background: #fff !important;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+header .nav {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .nav-links {
+  display: flex !important;
+  align-items: center;
+  gap: 24px;
+}
+
+header .nav-links a {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+header .logo {
+  display: flex !important;
+  visibility: visible !important;
+} 
   </style>
 </head>
 
