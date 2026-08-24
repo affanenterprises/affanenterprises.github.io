@@ -699,7 +699,8 @@
         padding: 30px;
       }
     }
-   /* FORCE NAVIGATION TO SHOW */
+   /* PROFESSIONAL NAVIGATION */
+
 header {
   display: block !important;
   width: 100%;
@@ -713,28 +714,51 @@ header .nav {
   display: flex !important;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+header .logo {
+  display: flex !important;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 header .nav-links {
   display: flex !important;
   align-items: center;
-  gap: 24px;
+  justify-content: flex-end;
+  gap: 22px;
+  flex-wrap: nowrap;
 }
 
 header .nav-links a {
   display: inline-block !important;
+  white-space: nowrap;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-header .logo {
-  display: flex !important;
-  visibility: visible !important;
-} 
-  </style>
-</head>
+/* MOBILE */
+@media (max-width: 700px) {
 
-<body>
+  header .nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 0;
+  }
+
+  header .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  header .nav-links a {
+    font-size: 14px;
+  }
+}
 
   <!-- TOP BAR -->
   <div class="topbar">
